@@ -1,0 +1,401 @@
+learner_id,signup_date,age,city_tier,education,hours_per_week_pledged,weekly_logins_avg,assignments_submitted,forum_posts,video_watch_pct,has_mentor,device,referral_source,payment_plan,days_since_last_login,certificate_issued,final_score,notes
+L-01695,26-05-2026,28,2,High School,6.2,3.42,8,2,54.7,FALSE,mobile,friend,free,2,Y,68.0,requested extension
+L-01213,2026-02-20,,2,Bachelors,13.8,0.31,0,0,19.9,FALSE,mobile,instagram,free,37,0,,requested extension
+L-00639,13-01-2026,22,1,Diploma,7.8,4.03,0,4,19.6,yes,Mobile,school_partner,paid,26,FALSE,,-
+L-01874,2026-06-04,20,1,Diploma,2.7,6.15,6,2,84.7,no,Mobile,school_partner,free,22,N,31.8,
+L-00872,17-05-2026,22,3,Diploma,11.0,4.04,4,4,40.4,FALSE,mobile,instagram,free,17,TRUE,87.2,follow up next intake
+L-01605,2026-06-15,21,2,Bachelors,7.5,3.39,8,0,70.0,1,mobile,school_partner,scholarship,1,TRUE,76.3,
+L-02487,2026-06-27,22,1,,11.7,2.5,7,6,91.2,0,tablet,instagram,paid,9,Y,67.4,
+L-02134,2026-04-15,19,2,High School,2.8,5.18,2,1,59.6,1,mobile,school_partner,scholarship,10,FALSE,,requested extension
+L-02741,2026-02-05,27,2,Diploma,7.6,3.64,6,5,70.7,Yes,phone,instagram,free,2,Yes,82.4,
+L-01887,22/03/2026,15,T2,OTHER,7.2,4.06,3,2,45.0,No,laptop,friend,free,29,FALSE,,
+L-01619,2026-05-02,16,3,Diploma,10.2,4.57,4,0,45.1,N,notebook,other,paid,30,0,,asked about certificate
+L-01370,2026-04-28,18,tier-2,Bachelors,4.8,3.95,3,6,72.3,FALSE,phone,youtube,scholarship,19,0,,follow up next intake
+L-00281,2026-03-27,17,T3,Diploma,6.6,3.07,5,1,33.2,FALSE,notebook,ngo_outreach,free,7,No,,
+L-01180,2026-03-08,18,2,Masters,10.7,4.17,7,2,58.9,1,phone,ngo_outreach,free,16,Yes,75.0,requested extension
+L-00586,2026-06-27,24,2,Bachelors,11.9,6.28,6,0,,N,mobile,ngo_outreach,free,16,0,,follow up next intake
+L-00187,05-04-2026,18,1,High School,4.1,1.21,1,4,41.3,No,mobile,youtube,free,25,N,35.6,
+L-00464,2026-04-05,19,3,Bachelors,5.2,2.42,2,1,22.6,1,laptop,school_partner,free,43,N,,
+L-01635,2026-03-08,25,1,High School,3.6,1.87,0,6,73.9,TRUE,laptop,friend,paid,37,No,,
+L-01612,2026-03-02,17,1,High School,6.3,3.16,3,5,3.8,1,Desktop,instagram,free,29,0,,called on phone
+L-02687,2026-04-09,17,1,High School,4.6,,1,3,19.8,,laptop,school_partner,scholarship,12,0,,duplicate?  check
+L-01050,12-04-2026,18,2,Masters,4.5,0.15,1,3,30.4,TRUE,laptop,school_partner,free,26,FALSE,,n/a
+L-01591,2026-03-17,16,2,Bachelors,10.3,2.42,6,6,24.0,no,desktop,friend,paid,2,TRUE,74.9,follow up next intake
+L-00310,2026-03-02,26,1,Bachelors,7.5,1.69,3,3,12.7,TRUE,Laptop,school_partner,free,24,no,,follow up next intake
+L-00861,2026-05-06,22,2,Bachelors,5.5,1.99,3,4,0.3,N,mobile,instagram,paid,17,1,88.1,asked about certificate
+L-02253,2026-06-08,18,2,High School,6.3,4.23,3,2,7.8,1,mobile,instagram,free,24,Y,77.0,
+L-02478,2026-04-24,25,3,High School,9.7,2.62,1,6,59.6,no,MOBILE,ngo_outreach,free,37,N,,asked about certificate
+L-00388,17-01-2026,18,1,Bachelors,,2.48,0,0,0.0,FALSE,desktop,ngo_outreach,paid,41,FALSE,,n/a
+L-01810,2026-05-19,20,2,High School,8.9,0.36,2,0,24.6,No,ipad,instagram,free,8,0,,
+L-02546,14-01-2026,24,1,DIPLOMA,8.7,3.27,8,4,88.0,yes,mobile,school_partner,free,6,Yes,70.0,
+L-02371,26-03-2026,19,3,Diploma,7.1,4.58,7,0,80.0,FALSE,notebook,instagram,free,5,0,,-
+L-01547,2026-02-28,19,1,Other,9.3,3.1,0,0,26.4,Y,mobile,friend,scholarship,38,no,52.3,
+L-00956,2026-06-03,18,Tier 2,masters,12.0,4.23,7,6,85.7,yes,mobile,youtube,free,0,1,73.1,
+L-00957,2026-02-06,18,1,Diploma,13.2,4.69,8,5,42.7,N,mobile,ngo_outreach,free,4,TRUE,65.8,
+L-00756,2026-03-09,21,1,High School,5.2,4.02,5,3,51.7,FALSE,laptop,ngo_outreach,paid,20,1,87.3,n/a
+L-01080,16/02/2026,0,1,Diploma,6.4,4.5,0,4,46.5,1,laptop,instagram,scholarship,1,N,,-
+L-01460,2026-06-28,16,T1,Bachelors,5.6,3.64,0,2,28.4,0,laptop,ngo_outreach,paid,22,yes,80.5,
+L-01628,23-02-2026,23,2,High School,4.2,0.81,2,4,9.2,N,mobile,school_partner,free,21,no,34.2,
+L-00015,27-01-2026,19,2,Diploma,5.7,1.36,0,3,26.4,yes,mobile,friend,free,22,No,,requested extension
+L-00311,2026-02-24,17,2,Diploma,8.3,3.03,8,12,55.2,FALSE,Mobile,friend,free,4,1,78.9,called on phone
+L-01328,2026-02-27,30,2,Bachelors,10.1,3.46,5,4,71.0,No,mobile,instagram,scholarship,9,FALSE,,
+L-02492,03/04/2026,24,2,Masters,5.0,5.18,9,2,12.1,no,desktop,instagram,free,6,No,,asked about certificate
+L-02399,2026-04-23,17,1,High School,5.3,1.94,8,0,25.9,Yes,mobile,school_partner,free,13,yes,77.3,
+L-02556,2026-03-27,17,3,diploma,3.5,1.65,4,0,77.8,yes,laptop,youtube,scholarship,19,1,73.6,asked about certificate
+L-00833,06/04/2026,23,1,diploma,4.9,1.66,6,1,36.1,Yes,tablet,youtube,free,19,No,,
+L-02112,01/04/2026,23,2,high school,5.2,6.51,6,2,,FALSE,Mobile,other,free,5,1,66.9,follow up next intake
+L-00183,2026-06-07,18,2,diploma,7.2,3.12,4,8,66.9,0,PC,school_partner,scholarship,17,TRUE,78.2,duplicate?  check
+L-00006,2026-02-08,21,,Diploma,6.0,1.84,2,4,72.5,Y,laptop,instagram,free,24,No,,requested extension
+L-01670,05-05-2026,26,2,Bachelors,5.6,3.53,5,4,33.2,no,mobile,instagram,paid,10,FALSE,,
+L-01509,2026-04-28,23,3,Diploma,8.3,3.2,4,8,54.5,1,mobile,school_partner,scholarship,14,yes,68.2,
+L-02433,24-02-2026,15,1,High School,16.0,3.62,1,3,38.7,0,ipad,instagram,scholarship,11,N,,duplicate?  check
+L-01310,2026-04-09,21,1,Bachelors,11.7,,5,5,42.3,TRUE,laptop,youtube,free,33,No,,n/a
+L-02090,07-04-2026,19,2,High School,4.7,,5,2,74.8,0,tablet,friend,free,22,0,46.5,n/a
+L-02574,20-05-2026,26,T1,bachelor degree,2.6,4.45,2,3,83.2,0,laptop,school_partner,paid,21,Y,79.7,-
+L-01659,2026-05-18,27,3,Bachelors,11.6,2.77,0,1,26.8,Y,ipad,youtube,paid,35,no,,
+L-00246,2026-03-27,15,2,,,3.63,2,1,48.9,Yes,mobile,youtube,paid,33,0,,n/a
+L-02443,2026-06-04,16,Tier 2,Masters,8.3,4.44,1,3,30.9,no,laptop,youtube,free,37,no,,
+L-00145,19-06-2026,19,2,Diploma,10.3,4.97,4,9,97.9,N,mobile,youtube,free,13,1,82.8,
+L-00402,27/03/2026,21,2,High School,5.1,3.1,6,4,27.7,TRUE,mobile,youtube,paid,17,N,,
+L-00609,2026-05-28,15,2,Bachelors,11.6,1.69,0,2,28.2,N,laptop,school_partner,paid,22,0,,
+L-02680,2026-02-19,20,3,highschool,10.2,1.64,5,2,35.8,N,MOBILE,school_partner,paid,11,FALSE,,
+L-01485,15-06-2026,199,T1,highschool,3.1,4.47,3,4,40.6,0,mobile,friend,scholarship,20,N,,duplicate?  check
+L-02715,28/02/2026,18,1,Bachelors,1.0,2.3,5,5,80.4,0,ipad,friend,paid,22,1,85.8,-
+L-00329,09-06-2026,19,2,Masters,5.8,5.33,0,7,0.0,1,laptop,friend,scholarship,28,TRUE,85.3,n/a
+L-00393,24-01-2026,15,1,Masters,8.2,1.62,0,1,22.0,No,mobile,school_partner,free,25,No,,
+L-01339,26/02/2026,24,Tier 2,Bachelors,8.7,3.1,2,1,18.3,N,mobile,school_partner,free,42,N,,
+L-00864,2026-01-14,24,Tier 3,High School,7.7,2.77,6,1,80.1,1,ipad,friend,paid,14,FALSE,,called on phone
+L-02422,22/02/2026,20,3,Bachelors,5.0,6.77,5,6,45.8,Yes,tablet,school_partner,paid,21,Yes,87.1,
+L-01279,08-06-2026,,tier-3,,7.7,1.43,0,3,26.4,0,mobile,youtube,free,48,0,,follow up next intake
+L-01632,2026-01-21,20,Tier 3,DIPLOMA,9.3,6.61,6,7,77.0,Y,mobile,school_partner,free,15,1,79.0,-
+L-00403,2026-02-25,20,1,Other,8.5,3.05,1,1,12.5,FALSE,mobile,instagram,paid,15,0,45.2,
+L-01913,2026-05-28,22,3,Other,6.9,4.57,9,9,28.7,0,mobile,ngo_outreach,scholarship,11,0,,n/a
+L-00188,2026-04-22,23,1,Bachelors,5.3,3.46,6,0,57.2,FALSE,desktop,youtube,free,22,yes,81.8,
+L-01402,2026-05-17,18,1,Masters,9.1,4.17,3,2,82.4,FALSE,mobile,school_partner,scholarship,18,no,,asked about certificate
+L-00143,18-02-2026,25,2,High School,8.4,3.48,3,2,36.5,1,laptop,school_partner,scholarship,27,yes,80.6,n/a
+L-01015,08-04-2026,21,2,Masters,5.5,3.8,5,3,25.9,TRUE,laptop,friend,paid,1,TRUE,81.6,called on phone
+L-01768,2026-04-08,15,3,Master's,4.1,2.29,5,2,65.6,0,laptop,school_partner,paid,15,1,82.6,follow up next intake
+L-00952,2026-02-11,27,T2,B.Tech,,3.33,1,4,71.4,no,laptop,school_partner,paid,39,0,,n/a
+L-00303,2026-03-07,16,Tier 2,,4.3,0.0,1,3,52.8,No,mobile,instagram,scholarship,13,No,56.7,
+L-01430,12-06-2026,25,tier-1,highschool,5.9,3.15,7,0,45.6,0,mobile,friend,paid,10,FALSE,88.7,
+L-00270,2026-04-23,23,1,High School,,2.82,7,0,53.6,yes,notebook,youtube,paid,19,Yes,66.4,
+L-02415,27-06-2026,22,tier-3,B.Tech,2.1,0.74,1,1,50.5,,phone,instagram,scholarship,14,N,,asked about certificate
+L-02614,2026-06-02,18,,Bachelors,13.5,7.0,5,1,37.0,Yes,mobile,youtube,free,1,No,,
+L-00498,01-03-2026,19,2,High School,1.1,3.12,5,7,52.5,No,mobile,school_partner,paid,40,TRUE,96.9,n/a
+L-01382,2026-06-01,28,2,,5.4,2.52,3,2,23.5,N,mobile,instagram,scholarship,26,No,47.0,duplicate?  check
+L-02792,2026-04-16,18,2,High School,10.4,5.14,8,0,35.4,yes,Mobile,school_partner,free,17,Y,76.2,asked about certificate
+L-02177,2026-05-23,24,3,High School,12.5,3.16,3,3,72.7,yes,mobile,friend,free,22,yes,88.4,
+L-00353,2026-05-21,15,Tier 1,diploma,10.4,2.62,1,2,50.0,1,mobile,friend,paid,34,0,,n/a
+L-01203,09-04-2026,23,2,Bachelors,10.4,1.45,0,3,55.0,1,laptop,school_partner,scholarship,30,N,,
+L-00602,2026-06-26,15,2,Diploma,11.1,2.15,2,5,38.6,1,laptop,ngo_outreach,free,13,Yes,75.0,-
+L-00680,2026-01-28,21,3,Masters,10.1,0.41,0,5,0.0,1,desktop,school_partner,paid,15,Yes,81.3,n/a
+L-00369,21/06/2026,22,2,Bachelors,6.4,3.46,4,7,57.3,Y,laptop,friend,free,21,yes,67.1,
+L-01431,2026-05-15,21,3,Diploma,7.4,0.0,0,1,35.5,0,laptop,friend,free,18,0,,
+L-01867,2026-02-05,25,2,Masters,6.4,1.88,1,4,53.9,No,mobile,instagram,free,23,N,,
+L-00103,2026-02-11,28,,High School,6.5,2.42,4,4,71.5,No,ipad,instagram,free,35,Y,66.3,duplicate?  check
+L-00999,2026-02-10,16,2,Bachelors,7.0,3.25,3,2,36.7,,mobile,school_partner,scholarship,6,TRUE,84.4,
+L-02764,2026-04-04,21,3,Masters,5.0,4.74,2,3,44.3,TRUE,mobile,friend,scholarship,19,yes,72.4,requested extension
+L-01758,2026-06-07,24,1,High School,9.9,6.06,8,1,49.8,0,mobile,instagram,free,39,No,,follow up next intake
+L-02529,2026-06-25,23,3,High-School,5.5,2.33,6,3,39.5,No,mobile,school_partner,scholarship,20,N,,
+L-01868,2026-03-16,22,Tier 1,Bachelors,5.2,3.32,2,0,46.8,1,laptop,instagram,scholarship,23,FALSE,,asked about certificate
+L-02455,2026-04-16,26,2,Diploma,1.0,1.62,0,6,15.2,no,laptop,instagram,free,27,no,,
+L-02629,2026-03-13,17,2,Diploma,7.3,2.45,4,6,74.5,yes,mobile,instagram,free,18,TRUE,78.5,n/a
+L-02073,04-04-2026,19,1,Masters,8.6,3.43,0,4,41.0,no,mobile,friend,paid,13,FALSE,,requested extension
+L-02586,2026-03-23,20,1,Diploma,6.5,5.09,2,3,28.4,yes,tablet,instagram,free,45,FALSE,,-
+L-00630,2026-06-24,18,3,Bachelor's,5.1,2.7,3,6,26.1,FALSE,mobile,ngo_outreach,free,19,FALSE,,
+L-00341,2026-02-28,15,2,High School,8.6,,8,0,72.7,0,laptop,youtube,free,6,Y,93.8,
+L-01043,2026-06-27,,1,High School,8.5,2.93,0,4,51.4,Yes,laptop,instagram,scholarship,24,No,,follow up next intake
+L-00349,2026-01-07,22,Tier 1,Diploma,6.8,4.16,3,6,14.8,No,mobile,friend,scholarship,21,Y,95.1,asked about certificate
+L-01305,2026-04-06,22,1,HS,7.6,3.68,8,6,74.1,0,laptop,ngo_outreach,scholarship,2,TRUE,73.9,
+L-01325,11-04-2026,24,2,Masters,3.4,2.05,2,0,2.9,Y,laptop,youtube,scholarship,24,no,,
+L-02491,2026-02-28,23,1,,11.6,0.57,5,3,39.1,No,desktop,youtube,paid,26,Y,92.0,called on phone
+L-01891,2026-03-18,28,,High School,8.2,2.86,5,1,31.8,FALSE,mobile,youtube,free,35,No,34.8,duplicate?  check
+L-00562,2026-03-17,16,2,Diploma,9.6,2.62,0,7,0.0,Yes,mobile,other,free,28,0,,n/a
+L-01833,2026-01-05,22,T1,HS,7.3,4.08,5,2,35.7,0,mobile,instagram,free,20,No,35.1,-
+L-01249,2026-06-13,21,1,Bachelors,6.1,3.34,8,9,54.1,TRUE,mobile,school_partner,scholarship,31,1,80.5,n/a
+L-02352,22/05/2026,26,3,Masters,5.9,3.52,5,1,62.4,FALSE,MOBILE,friend,paid,16,0,,
+L-00042,2026-05-27,24,T1,high school,11.8,4.55,6,9,51.2,TRUE,mobile,friend,free,1,no,,requested extension
+L-01074,20/04/2026,20,2,B.Tech,2.0,4.19,6,0,80.9,1,mobile,ngo_outreach,scholarship,2,1,67.9,-
+L-01732,2026-04-24,21,2,Masters,14.5,2.97,9,6,90.0,no,mobile,youtube,scholarship,8,yes,85.2,n/a
+L-01255,25-04-2026,25,1,bachelors,6.9,,5,3,40.1,1,laptop,friend,paid,14,Yes,76.1,
+L-00254,19/03/2026,26,Tier 3,DIPLOMA,5.5,1.52,3,1,30.6,FALSE,mobile,school_partner,paid,40,TRUE,86.9,called on phone
+L-02639,2026-03-20,,1,bachelors,8.6,4.86,6,5,89.1,TRUE,Mobile,school_partner,free,8,TRUE,83.5,
+L-00163,22-05-2026,28,3,Masters,17.1,2.96,6,9,60.7,0,mobile,school_partner,free,8,TRUE,72.0,requested extension
+L-00179,2026-05-03,19,T1,bachelor degree,9.0,3.56,6,6,43.6,Yes,laptop,youtube,scholarship,16,TRUE,83.3,
+L-01225,2026-01-20,22,2,High School,1.0,2.86,4,3,51.8,No,mobile,friend,free,3,0,38.8,follow up next intake
+L-02658,2026-06-02,15,Tier 1,diploma,10.6,3.18,2,2,33.4,FALSE,MOBILE,instagram,free,29,no,,duplicate?  check
+L-01269,2026-06-17,24,3,Diploma,7.8,3.05,5,0,68.9,N,laptop,youtube,free,9,0,,duplicate?  check
+L-02023,2026-03-24,,3,Bachelors,8.1,3.01,0,2,20.5,N,mobile,youtube,free,22,No,,called on phone
+L-00142,2026-05-06,16,1,Bachelors,9.4,3.29,2,0,0.0,no,phone,school_partner,free,13,yes,72.0,
+L-01435,2026-02-26,21,T1,Diploma,9.8,6.15,5,7,,0,mobile,friend,free,17,N,,
+L-02095,11-03-2026,21,1,Bachelors,,3.88,3,1,61.0,No,tablet,friend,free,29,FALSE,,follow up next intake
+L-02617,11/01/2026,22,T2,B.Tech,6.9,0.0,2,3,20.4,0,Tablet,instagram,free,31,no,,
+L-02693,01-01-2026,20,3,Diploma,6.4,2.67,7,2,51.3,no,mobile,ngo_outreach,free,16,yes,97.9,
+L-01535,2026-01-08,,2,Diploma,9.4,3.27,7,2,87.4,yes,laptop,school_partner,free,15,TRUE,68.3,requested extension
+L-01103,27/03/2026,21,T1,High-School,8.7,4.86,0,1,93.6,TRUE,laptop,youtube,free,18,N,,requested extension
+L-00615,09-06-2026,23,2,HS,17.6,6.25,8,7,100.0,No,laptop,instagram,scholarship,17,yes,72.6,requested extension
+L-02689,2026-02-21,15,2,other,2.8,1.25,3,1,23.2,no,tablet,friend,paid,19,N,,requested extension
+L-00343,2026-02-28,22,2,Diploma,10.4,3.48,9,7,27.8,1,mobile,youtube,free,3,yes,68.3,duplicate?  check
+L-01405,2026-06-19,27,2,bachelor degree,5.5,1.02,2,3,61.7,1,laptop,ngo_outreach,free,23,TRUE,77.3,
+L-01267,2026-06-01,26,2,HS,6.1,,6,5,89.7,Y,Tablet,school_partner,free,2,TRUE,82.5,follow up next intake
+L-00091,2026-03-02,20,1,Bachelors,7.7,2.56,1,4,,0,laptop,instagram,scholarship,24,N,,
+L-01838,2026-01-12,,2,bachelors,218.7,2.08,6,3,93.1,FALSE,mobile,youtube,scholarship,13,TRUE,88.8,
+L-00801,2026-02-03,21,2,Diploma,8.4,1.03,2,10,84.3,N,Laptop,school_partner,free,19,no,,
+L-00209,23-03-2026,,3,Diploma,6.4,5.03,4,1,41.2,FALSE,Mobile,ngo_outreach,scholarship,20,no,,
+L-02157,2026-01-21,16,3,Diploma,4.2,0.78,4,0,88.9,FALSE,laptop,friend,paid,35,Yes,,duplicate?  check
+L-01134,11-05-2026,21,T1,High School,9.7,4.41,6,0,60.9,FALSE,desktop,ngo_outreach,scholarship,8,TRUE,83.2,
+L-00578,10/01/2026,20,2,Bachelors,7.9,0.56,1,2,42.2,No,mobile,ngo_outreach,free,10,no,,
+L-00114,2026-03-17,15,Tier 1,High School,3.7,3.82,5,11,69.6,0,mobile,friend,free,3,No,,
+L-00100,11-04-2026,17,2,Bachelors,4.1,0.68,0,0,18.4,TRUE,desktop,instagram,free,42,no,,asked about certificate
+L-00713,03/04/2026,20,tier-1,Masters,4.6,2.1,0,5,104.6,N,laptop,school_partner,free,18,Y,73.3,
+L-00846,2026-05-14,23,1,Bachelors,6.8,4.29,3,2,36.1,N,mobile,instagram,free,10,1,74.0,called on phone
+L-00824,2026-06-09,20,tier-3,High School,9.3,1.31,0,0,15.1,no,mobile,school_partner,free,32,N,,called on phone
+L-02536,10-02-2026,21,1,High School,8.7,2.33,0,0,40.7,Yes,mobile,friend,free,45,0,,duplicate?  check
+L-01762,2026-06-06,22,2,Bachelors,7.5,3.55,4,4,22.1,No,PC,friend,paid,15,No,,
+L-01283,2026-03-12,20,1,Bachelors,7.8,4.56,4,4,85.8,N,mobile,youtube,free,11,Yes,64.1,asked about certificate
+L-02368,2026-06-27,20,2,,7.7,3.15,4,2,86.7,yes,notebook,ngo_outreach,scholarship,28,1,79.8,duplicate?  check
+L-02115,24/01/2026,20,Tier 3,masters,5.6,1.7,5,0,63.4,FALSE,mobile,other,free,30,No,,n/a
+L-02475,2026-04-02,29,tier-3,Diploma,7.6,4.7,5,2,31.2,FALSE,laptop,youtube,free,23,FALSE,,
+L-02217,2026-01-01,24,3,bachelor degree,6.5,4.73,2,5,2.6,1,mobile,youtube,paid,32,TRUE,73.6,asked about certificate
+L-01031,2026-04-15,20,,High School,6.7,1.69,0,6,5.9,Yes,mobile,friend,scholarship,38,no,,
+L-02327,2026-01-03,26,2,High School,10.8,2.42,7,1,38.2,Y,phone,friend,scholarship,13,No,41.1,
+L-01583,2026-05-19,22,tier-3,Bachelors,,0.58,1,1,0.0,TRUE,mobile,friend,scholarship,51,no,,asked about certificate
+L-02780,2026-01-23,17,1,Bachelors,1.6,1.95,3,3,41.0,FALSE,phone,youtube,free,24,No,,
+L-00119,2026-02-22,22,1,Other,9.6,2.98,4,4,84.0,0,laptop,instagram,paid,9,TRUE,73.9,
+L-01667,12/02/2026,17,2,Bachelors,11.3,3.79,8,0,59.2,0,laptop,instagram,free,1,1,89.5,duplicate?  check
+L-01091,02-06-2026,29,2,,,3.74,3,5,100.0,No,laptop,youtube,free,27,no,,requested extension
+L-00097,07/02/2026,15,2,Masters,5.8,3.66,5,1,30.7,Y,mobile,instagram,free,22,no,,requested extension
+L-00537,2026-03-12,20,2,bachelors,13.9,4.85,6,2,41.4,No,mobile,instagram,paid,4,Yes,87.7,follow up next intake
+L-01088,2026-03-25,20,Tier 3,Bachelors,7.4,0.0,0,3,60.7,no,laptop,friend,paid,32,No,,called on phone
+L-02587,2026-01-16,24,1,Diploma,13.7,3.33,2,1,41.9,Y,laptop,other,free,5,Y,91.6,requested extension
+L-00729,23-04-2026,15,T2,Bachelors,7.0,2.27,2,1,,no,phone,school_partner,free,25,FALSE,,duplicate?  check
+L-01109,2026-02-28,199,2,High School,10.2,3.16,3,3,57.0,FALSE,MOBILE,instagram,paid,20,N,34.3,
+L-00906,02-03-2026,15,3,High School,5.9,2.77,2,1,52.5,0,mobile,youtube,paid,18,N,,called on phone
+L-00582,2026-01-19,20,Tier 3,,7.2,3.63,6,1,48.1,No,tablet,friend,free,31,FALSE,,duplicate?  check
+L-01935,2026-05-08,22,2,Diploma,6.1,2.84,4,3,44.8,TRUE,Mobile,friend,paid,0,no,,called on phone
+L-00766,2026-04-05,24,3,,8.9,0.0,0,2,21.1,N,desktop,youtube,scholarship,42,No,,n/a
+L-01651,2026-03-01,21,2,DIPLOMA,7.4,4.58,7,6,110.3,0,desktop,instagram,paid,14,yes,92.9,
+L-01170,2026-04-22,18,1,High School,2.5,1.87,8,2,73.9,FALSE,laptop,other,paid,4,No,,requested extension
+L-02569,10/06/2026,20,T2,High School,5.8,5.49,4,0,46.6,N,laptop,youtube,paid,21,Y,74.1,called on phone
+L-01529,2026-06-09,19,,Diploma,3.6,2.45,4,2,39.2,Yes,notebook,friend,free,40,No,,n/a
+L-01381,2026-01-04,18,2,Diploma,10.0,2.08,8,5,45.0,N,Mobile,friend,scholarship,4,1,71.6,called on phone
+L-01123,09-04-2026,22,3,Bachelors,7.0,3.07,2,1,48.5,1,mobile,instagram,free,36,N,,
+L-00318,2026-05-14,26,1,Masters,4.5,0.0,4,1,11.3,no,mobile,friend,scholarship,20,FALSE,,
+L-02239,2026-02-23,23,T2,High School,10.8,6.17,6,2,53.2,Yes,laptop,instagram,free,9,0,,
+L-02393,21-01-2026,30,1,Bachelors,10.3,5.79,8,1,72.9,FALSE,mobile,instagram,free,19,yes,88.8,follow up next intake
+L-01976,2026-06-24,,1,Diploma,5.9,6.56,10,9,69.4,Y,mobile,instagram,free,19,Y,96.6,requested extension
+L-02035,17-04-2026,21,1,unknown,6.4,3.64,4,1,65.9,Y,tablet,ngo_outreach,paid,23,1,78.5,
+L-00954,04/06/2026,21,Tier 2,DIPLOMA,8.5,2.66,5,3,21.6,0,desktop,instagram,free,29,0,,follow up next intake
+L-01626,10-01-2026,19,3,Bachelors,7.5,2.78,8,3,26.3,0,mobile,school_partner,scholarship,24,0,,
+L-00677,2026-03-05,15,2,bachelors,6.0,2.81,0,4,24.7,N,laptop,ngo_outreach,free,22,No,,follow up next intake
+L-01284,2026-06-04,25,2,Bachelors,10.8,0.0,3,1,0.0,0,Laptop,youtube,free,48,No,,duplicate?  check
+L-01133,2026-06-10,18,2,diploma,3.0,4.35,7,3,67.1,N,mobile,ngo_outreach,free,22,FALSE,,asked about certificate
+L-01979,07-01-2026,17,2,High School,2.5,3.12,6,2,57.8,N,laptop,friend,free,12,Yes,81.9,
+L-02169,2026-04-24,23,3,,6.1,4.45,3,1,11.1,N,notebook,ngo_outreach,scholarship,40,no,,
+L-02266,2026-02-21,25,1,High School,2.9,1.27,0,6,12.9,FALSE,phone,ngo_outreach,free,19,no,,requested extension
+L-01919,2026-01-13,18,3,Diploma,4.4,2.03,3,9,84.3,Y,laptop,ngo_outreach,free,36,FALSE,,asked about certificate
+L-00425,2026-02-24,15,2,Bachelors,10.5,0.45,4,1,19.8,no,mobile,friend,paid,18,no,,
+L-02064,2026-02-04,16,1,Bachelors,8.2,3.8,7,5,72.8,N,MOBILE,youtube,free,3,yes,79.2,n/a
+L-02400,17/03/2026,20,2,Diploma,9.3,1.57,5,5,63.1,yes,mobile,friend,free,11,FALSE,,
+L-02196,2026-05-27,19,3,Diploma,9.0,,4,1,40.2,N,tablet,youtube,scholarship,46,FALSE,,duplicate?  check
+L-00976,12-01-2026,19,1,Diploma,11.8,3.44,4,1,38.2,No,desktop,friend,paid,31,no,,asked about certificate
+L-00286,2026-06-06,,2,High School,6.5,1.96,1,0,0.0,Y,laptop,friend,paid,30,No,59.4,duplicate?  check
+L-02346,2026-04-27,19,1,high school,13.5,3.84,2,5,16.7,Yes,phone,school_partner,free,28,N,,duplicate?  check
+L-02385,13/06/2026,23,1,High-School,,3.12,7,4,36.7,1,mobile,youtube,paid,12,TRUE,92.2,follow up next intake
+L-00559,2026-01-09,20,2,High School,3.0,1.93,0,5,18.1,No,desktop,friend,paid,38,0,,-
+L-01844,2026-03-15,22,Tier 2,,6.9,,7,2,19.3,1,phone,school_partner,free,16,1,86.8,asked about certificate
+L-00783,02-04-2026,20,3,Diploma,9.2,1.19,4,3,77.4,No,desktop,instagram,scholarship,19,1,79.3,-
+L-00260,2026-06-28,22,1,High-School,,5.86,5,5,2.7,no,laptop,school_partner,free,6,N,,follow up next intake
+L-02549,2026-05-09,17,3,High School,8.3,3.66,2,1,52.4,Yes,mobile,school_partner,scholarship,5,FALSE,,asked about certificate
+L-00367,15-06-2026,21,,Diploma,4.5,2.52,4,4,83.9,TRUE,notebook,instagram,free,5,yes,77.4,
+L-02348,2026-05-09,20,2,High School,11.0,4.44,0,3,42.8,1,mobile,youtube,scholarship,27,no,,requested extension
+L-01045,2026-04-23,21,1,Bachelors,10.9,4.09,4,1,60.6,FALSE,mobile,instagram,free,1,No,,-
+L-00795,14-05-2026,25,T2,Bachelors,10.1,,6,2,31.0,no,desktop,school_partner,scholarship,27,0,,
+L-01657,2026-04-23,20,Tier 3,Bachelors,8.2,3.19,3,2,43.6,FALSE,mobile,ngo_outreach,free,23,TRUE,83.6,
+L-01679,2026-05-20,28,3,,2.7,1.63,0,2,32.3,No,notebook,school_partner,scholarship,28,no,,-
+L-00413,2026-03-08,20,tier-2,High School,2.5,2.74,3,2,40.9,No,mobile,friend,paid,22,FALSE,,
+L-00535,2026-06-28,20,1,Diploma,1.3,2.1,4,1,45.3,0,mobile,instagram,free,18,No,,follow up next intake
+L-00700,2026-02-19,20,Tier 3,High School,6.3,3.26,0,5,0.0,FALSE,phone,friend,paid,11,N,,n/a
+L-00198,2026-04-06,25,2,High School,3.7,2.64,1,1,16.9,N,desktop,school_partner,free,20,FALSE,,-
+L-01888,2026-01-16,25,T2,,11.7,3.97,2,1,12.3,TRUE,tablet,friend,free,39,no,,requested extension
+L-02471,2026-05-20,15,1,bachelor degree,6.9,2.17,1,5,116.1,TRUE,mobile,school_partner,paid,9,0,,
+L-01214,2026-05-15,24,2,Bachelor's,11.5,3.43,2,0,52.9,No,mobile,youtube,paid,7,No,,duplicate?  check
+L-00994,2026-06-22,28,1,bachelor degree,4.7,1.54,0,6,0.0,0,PC,youtube,scholarship,18,Y,78.8,
+L-00814,2026-06-07,20,3,High School,8.6,1.5,0,2,108.4,N,mobile,instagram,free,26,N,28.3,asked about certificate
+L-00982,15/03/2026,20,tier-1,Diploma,10.8,5.11,8,0,91.9,no,Laptop,instagram,free,5,TRUE,72.9,asked about certificate
+L-00236,2026-06-04,18,tier-2,Bachelors,5.2,1.61,6,4,23.3,1,mobile,instagram,paid,18,no,,
+L-02583,12-05-2026,0,tier-3,Bachelors,12.6,5.12,3,4,87.7,no,mobile,instagram,free,13,no,,follow up next intake
+L-01208,07-04-2026,21,3,high school,6.3,4.62,8,4,61.7,TRUE,Desktop,friend,scholarship,38,TRUE,71.6,
+L-01072,2026-06-07,16,3,Masters,11.5,5.82,4,3,54.2,0,desktop,instagram,paid,31,yes,69.6,
+L-00942,02/04/2026,19,1,Diploma,12.5,6.11,6,1,72.0,no,mobile,instagram,scholarship,3,yes,73.9,
+L-02440,2026-03-10,25,3,Bachelors,3.8,3.78,3,7,14.7,Yes,mobile,instagram,scholarship,26,No,,
+L-01379,2026-04-10,26,2,Bachelors,5.5,0.67,1,1,5.4,N,mobile,instagram,free,27,0,,called on phone
+L-01469,2026-05-04,27,1,diploma,8.8,5.72,3,0,67.2,No,PC,friend,scholarship,6,Yes,64.7,called on phone
+L-01930,18-02-2026,24,2,DIPLOMA,6.3,3.49,3,0,,FALSE,desktop,instagram,scholarship,2,No,,asked about certificate
+L-01475,2026-02-18,18,2,Bachelors,4.4,3.53,3,0,43.1,Y,MOBILE,instagram,free,10,FALSE,,requested extension
+L-00370,2026-04-12,30,1,High School,7.7,2.78,4,2,31.1,TRUE,desktop,instagram,scholarship,4,FALSE,,
+L-00487,2026-06-09,300,2,Diploma,3.1,5.77,7,3,44.9,0,mobile,instagram,paid,13,yes,59.8,n/a
+L-02306,2026-01-16,15,Tier 1,diploma,9.2,1.83,4,5,41.2,no,mobile,friend,paid,19,no,44.3,
+L-00617,2026-01-16,24,1,DIPLOMA,6.1,0.0,0,4,22.0,No,laptop,school_partner,scholarship,36,no,,asked about certificate
+L-00889,2026-06-08,23,1,Diploma,1.6,3.11,1,0,47.0,yes,mobile,friend,free,16,FALSE,,requested extension
+L-02418,2026-04-06,17,T1,Masters,1.3,2.97,3,5,31.9,0,mobile,youtube,free,18,FALSE,51.2,follow up next intake
+L-00482,15/04/2026,,Tier 3,Bachelors,9.1,1.39,7,1,74.0,1,laptop,instagram,free,14,0,,duplicate?  check
+L-02251,2026-04-24,28,2,Diploma,10.4,3.1,1,4,57.6,No,laptop,instagram,paid,27,0,,
+L-02460,2026-03-03,15,2,highschool,2.0,4.48,7,2,80.2,N,phone,ngo_outreach,scholarship,10,Yes,89.5,
+L-01562,24-04-2026,22,2,Diploma,6.1,1.66,1,1,58.6,0,laptop,school_partner,free,1,0,,duplicate?  check
+L-01749,23-06-2026,15,2,Diploma,5.6,3.81,5,5,24.0,0,mobile,instagram,free,0,N,,asked about certificate
+L-00007,2026-01-18,16,Tier 1,,2.9,3.19,7,0,79.8,Yes,laptop,school_partner,paid,2,yes,77.5,-
+L-00038,13-04-2026,,tier-1,,10.1,1.55,1,4,47.2,Y,mobile,other,paid,23,no,,
+L-02427,2026-03-24,15,,High-School,13.5,2.65,8,5,53.1,,ipad,instagram,scholarship,14,yes,80.7,-
+L-00374,2026-05-19,21,3,High-School,3.4,4.49,0,1,51.7,FALSE,laptop,ngo_outreach,scholarship,19,N,,
+L-00934,2026-05-09,19,3,high school,8.9,3.0,6,4,22.5,N,desktop,instagram,paid,10,yes,82.5,n/a
+L-02264,09/05/2026,23,1,Bachelors,7.4,0.9,2,5,26.7,FALSE,MOBILE,friend,free,36,No,,called on phone
+L-00758,2026-01-25,30,tier-1,,10.1,1.83,7,3,36.6,no,mobile,school_partner,paid,20,N,,follow up next intake
+L-00981,2026-03-05,18,tier-1,Bachelors,7.3,5.21,7,6,82.0,No,notebook,school_partner,free,12,Y,89.3,called on phone
+L-02751,05/04/2026,20,,bachelors,14.7,2.29,7,5,,No,mobile,ngo_outreach,scholarship,29,no,35.5,
+L-01895,2026-04-20,24,1,Bachelor's,1.0,1.38,4,1,76.8,no,laptop,ngo_outreach,free,7,No,,duplicate?  check
+L-01738,24/03/2026,16,3,unknown,6.4,0.0,0,4,27.9,N,mobile,school_partner,scholarship,41,0,,
+L-00327,2026-04-06,21,2,other,10.8,4.9,2,2,64.5,FALSE,desktop,ngo_outreach,scholarship,9,Y,85.8,
+L-01364,28-06-2026,23,,Diploma,2.2,3.69,10,3,56.8,No,mobile,ngo_outreach,scholarship,5,1,87.4,
+L-02296,2026-01-17,24,T2,,,4.39,1,8,63.3,FALSE,Mobile,instagram,scholarship,29,No,,requested extension
+L-02679,2026-04-03,21,1,High School,16.2,2.1,4,2,15.4,yes,mobile,friend,scholarship,14,no,,called on phone
+L-01634,2026-01-02,30,1,High School,7.3,1.52,3,3,27.1,1,Laptop,youtube,scholarship,28,Y,84.8,follow up next intake
+L-00033,11/06/2026,20,T2,Master's,6.6,1.51,5,2,53.8,TRUE,desktop,youtube,scholarship,17,N,45.6,-
+L-02032,20-04-2026,,Tier 3,HS,6.0,1.85,6,1,35.0,yes,mobile,instagram,free,21,N,,follow up next intake
+L-00524,2026-06-14,21,tier-1,High School,,1.97,0,2,16.2,0,tablet,school_partner,scholarship,27,N,,requested extension
+L-00545,2026-03-07,19,2,Bachelors,9.4,6.32,2,0,43.9,Yes,tablet,youtube,free,18,FALSE,,requested extension
+L-02070,01-06-2026,26,3,High School,7.4,2.62,2,2,20.7,No,mobile,school_partner,scholarship,17,No,,-
+L-02519,2026-03-01,19,3,High School,2.7,2.13,2,3,22.3,No,mobile,friend,free,18,N,,
+L-02380,06/05/2026,22,2,Masters,4.0,2.11,5,3,72.0,N,mobile,school_partner,free,13,0,39.4,
+L-00946,2026-03-08,16,Tier 1,Bachelors,3.4,2.88,0,4,64.5,no,PC,youtube,paid,48,N,,
+L-01849,2026-01-23,16,1,High School,8.0,3.99,2,3,53.7,TRUE,desktop,other,free,4,1,76.7,
+L-00241,2026-03-22,21,2,Bachelors,4.8,4.29,3,9,82.8,Y,notebook,school_partner,free,4,yes,91.1,-
+L-01747,09/06/2026,20,2,Bachelors,4.3,2.38,0,1,17.5,FALSE,mobile,other,scholarship,54,FALSE,,asked about certificate
+L-01960,2026-05-15,19,2,Bachelors,6.4,2.28,3,2,11.5,0,MOBILE,ngo_outreach,free,3,N,,asked about certificate
+L-02479,26/04/2026,25,1,Masters,3.8,3.74,6,5,71.1,No,laptop,friend,scholarship,23,Y,72.8,
+L-02003,2026-02-25,19,T2,Bachelors,5.8,,2,8,24.5,No,mobile,school_partner,free,37,0,,n/a
+L-01722,2026-06-18,22,Tier 2,High School,11.3,3.38,5,3,40.9,no,laptop,school_partner,free,12,1,63.0,
+L-01893,2026-05-16,15,3,Bachelors,6.9,3.78,0,1,55.3,No,MOBILE,friend,paid,3,N,,-
+L-01704,2026-02-02,25,1,Masters,8.3,3.47,5,5,49.7,0,notebook,friend,free,4,no,,
+L-00335,2026-04-06,23,2,Masters,7.4,2.04,4,3,68.5,Y,mobile,school_partner,paid,25,0,,
+L-00127,07/05/2026,20,3,DIPLOMA,11.2,1.97,5,9,61.1,1,mobile,youtube,paid,20,No,40.9,
+L-01957,2026-02-03,,tier-1,High School,9.0,3.8,8,7,54.7,N,tablet,ngo_outreach,scholarship,4,Y,69.8,
+L-02143,2026-03-21,19,,diploma,7.6,3.78,2,3,21.9,FALSE,mobile,youtube,free,35,N,45.7,
+L-02736,2026-01-25,23,1,Masters,5.8,2.71,0,1,18.2,N,phone,instagram,free,36,Yes,77.3,
+L-02740,09-01-2026,22,2,Diploma,10.3,4.1,9,3,30.6,Yes,phone,youtube,scholarship,1,TRUE,82.2,
+L-00754,2026-03-15,17,1,other,1.0,2.87,1,0,48.0,Yes,PC,friend,free,5,no,,called on phone
+L-02105,2026-05-07,23,2,B.Tech,8.6,2.02,0,2,44.9,Yes,mobile,ngo_outreach,free,18,FALSE,,
+L-00733,02-02-2026,19,tier-2,highschool,6.7,2.96,2,3,46.5,FALSE,Laptop,school_partner,scholarship,18,TRUE,83.0,
+L-00109,2026-01-05,19,2,,5.2,4.59,2,2,42.8,TRUE,laptop,other,free,24,yes,78.8,
+L-00926,2026-04-02,18,2,Bachelors,9.9,4.1,8,1,91.1,0,laptop,school_partner,free,13,FALSE,92.8,
+L-01373,2026-03-19,,2,Bachelors,3.6,3.62,4,4,105.3,TRUE,mobile,ngo_outreach,free,14,TRUE,74.1,requested extension
+L-01003,2026-02-05,23,2,High School,7.8,0.29,0,1,11.4,no,mobile,instagram,free,28,No,,duplicate?  check
+L-01863,2026-04-17,18,2,Diploma,7.9,2.93,5,4,43.7,1,Tablet,friend,scholarship,39,1,92.0,requested extension
+L-00121,2026-04-24,19,2,High School,9.9,4.06,1,2,11.9,0,Desktop,instagram,free,13,N,,
+L-02671,08-01-2026,24,2,Bachelors,84.7,3.06,4,1,64.6,0,laptop,other,free,32,N,,
+L-02335,2026-02-27,23,2,Bachelors,5.0,5.16,9,4,100.0,N,MOBILE,school_partner,scholarship,4,yes,93.3,called on phone
+L-00139,19/03/2026,28,2,Diploma,9.5,4.86,8,1,,no,notebook,youtube,free,20,Yes,88.0,
+L-02452,28-04-2026,26,2,High School,2.8,1.5,1,3,42.0,TRUE,tablet,youtube,scholarship,41,0,,requested extension
+L-01487,2026-06-26,22,T1,Bachelors,12.3,3.93,10,4,,1,phone,school_partner,free,9,Y,67.3,follow up next intake
+L-01097,2026-05-06,17,1,High School,9.1,2.01,3,3,52.3,no,MOBILE,instagram,free,28,No,,requested extension
+L-02263,2026-05-27,18,2,Bachelors,143.6,1.12,5,1,23.6,no,mobile,instagram,scholarship,18,Yes,73.3,asked about certificate
+L-02784,2026-06-01,20,2,High School,10.5,5.92,7,7,49.4,,mobile,friend,free,6,1,66.9,
+L-02089,2026-04-17,20,2,DIPLOMA,2.7,4.35,2,1,23.3,FALSE,mobile,youtube,free,12,N,,follow up next intake
+L-00036,2026-06-20,27,1,High School,8.7,2.66,4,1,53.1,0,mobile,school_partner,free,9,Y,66.3,n/a
+L-02206,2026-05-25,20,2,Bachelors,6.7,1.62,7,5,25.0,FALSE,laptop,youtube,paid,4,yes,76.0,duplicate?  check
+L-01481,2026-05-11,25,2,High School,11.1,4.41,5,1,51.9,FALSE,phone,instagram,scholarship,29,no,38.8,
+L-01347,13-05-2026,18,T2,High School,5.3,2.87,7,0,85.4,TRUE,laptop,friend,free,19,N,,
+L-01537,2026-01-05,22,3,Bachelors,13.9,4.02,7,10,78.9,1,notebook,other,free,12,no,44.0,requested extension
+L-00595,2026-06-15,21,3,Diploma,8.4,2.97,4,1,87.0,N,tablet,school_partner,free,4,1,77.0,
+L-00592,2026-06-09,21,2,Diploma,6.6,2.39,0,6,41.1,No,mobile,school_partner,free,10,no,,n/a
+L-00975,2026-05-07,28,1,Diploma,2.3,0.94,2,7,17.3,FALSE,desktop,friend,scholarship,32,No,,
+L-00418,2026-01-23,24,2,Diploma,15.6,3.17,1,1,26.0,Yes,Laptop,instagram,scholarship,16,FALSE,,
+L-00850,2026-01-15,25,2,Bachelors,9.2,3.59,4,5,48.4,FALSE,laptop,other,free,34,0,,
+L-01228,2026-03-07,19,1,Bachelors,8.1,,6,1,22.2,1,phone,ngo_outreach,paid,39,no,,
+L-01727,2026-06-01,23,1,Diploma,6.0,4.3,6,3,61.5,1,phone,school_partner,scholarship,28,1,89.3,
+L-02673,04/03/2026,21,3,High School,10.6,3.61,3,5,22.7,N,mobile,instagram,free,11,0,,
+L-00170,2026-04-21,22,2,High School,6.7,,0,1,17.4,no,MOBILE,ngo_outreach,paid,11,No,,
+L-01000,02-03-2026,24,1,High School,12.2,3.14,3,4,55.3,0,mobile,school_partner,paid,38,No,52.6,
+L-00705,2026-01-26,21,1,Diploma,10.1,1.52,0,2,22.4,no,mobile,friend,free,18,0,,
+L-01538,20-06-2026,18,tier-1,Bachelors,1.1,1.14,2,1,71.1,Y,tablet,school_partner,paid,25,1,65.8,-
+L-01115,2026-02-08,15,2,Masters,7.0,2.5,3,1,22.8,N,mobile,school_partner,free,8,0,,
+L-01334,2026-05-20,15,T3,Diploma,8.7,4.02,4,7,51.1,1,mobile,friend,free,8,FALSE,,follow up next intake
+L-02404,2026-02-11,,2,Other,,3.27,3,2,24.6,0,laptop,school_partner,free,43,0,,requested extension
+L-00983,2026-04-21,30,1,Other,8.9,3.5,8,4,75.6,,desktop,instagram,free,12,Yes,86.6,
+L-01177,2026-03-13,15,T2,Bachelors,8.3,2.77,4,3,55.8,No,laptop,friend,paid,16,FALSE,,follow up next intake
+L-01994,10/01/2026,16,1,Bachelors,239.8,2.6,4,8,,0,mobile,school_partner,scholarship,17,No,20.4,requested extension
+L-02611,2026-04-02,19,1,Masters,2.3,1.87,2,5,10.5,N,mobile,instagram,scholarship,21,N,,
+L-01179,19-04-2026,27,,Masters,6.3,0.46,3,4,57.8,yes,tablet,school_partner,scholarship,25,FALSE,,
+L-02174,2026-02-25,21,1,Diploma,2.8,4.25,1,4,18.6,TRUE,phone,instagram,paid,16,0,,
+L-01028,2026-01-01,29,1,Diploma,,0.99,3,5,52.5,TRUE,mobile,instagram,scholarship,2,N,45.3,n/a
+L-02509,2026-03-20,22,2,Other,5.3,2.19,0,5,36.5,yes,mobile,instagram,free,34,FALSE,46.9,called on phone
+L-00395,2026-04-25,16,Tier 1,High School,13.2,3.3,2,8,57.3,,mobile,youtube,paid,17,no,,
+L-01512,20/05/2026,16,2,High-School,10.7,3.27,9,4,41.8,yes,mobile,youtube,paid,5,1,88.2,called on phone
+L-01069,2026-05-23,19,2,Bachelors,10.9,3.32,4,9,56.5,FALSE,ipad,school_partner,scholarship,14,0,75.2,-
+L-01716,2026-01-03,21,3,Diploma,5.8,4.52,7,5,82.4,0,mobile,school_partner,paid,23,FALSE,,asked about certificate
+L-01205,2026-03-26,19,2,Masters,3.3,2.08,0,2,32.6,0,laptop,instagram,free,6,N,46.1,asked about certificate
+L-01494,28/05/2026,23,1,High School,7.3,4.33,5,8,85.9,0,mobile,school_partner,scholarship,8,Yes,76.9,follow up next intake
+L-00298,22-03-2026,26,1,Diploma,10.3,4.64,3,3,3.1,0,PC,school_partner,free,36,No,,
+L-02005,18-01-2026,,2,Bachelors,6.5,2.68,8,2,116.4,FALSE,laptop,ngo_outreach,free,31,yes,76.3,
+L-00071,2026-01-02,23,3,High School,5.7,0.4,3,5,0.0,Yes,mobile,instagram,free,45,0,,
+L-02701,2026-05-20,20,1,Other,6.9,4.34,4,1,25.3,Y,laptop,youtube,scholarship,17,N,,called on phone
+L-00216,2026-01-25,15,tier-1,,8.8,6.41,5,2,81.1,FALSE,mobile,other,free,15,Y,73.3,requested extension
+L-02578,19/03/2026,23,T2,High School,8.0,3.21,4,2,48.4,FALSE,laptop,other,free,35,FALSE,31.9,n/a
+L-02571,2026-02-22,25,2,Masters,3.6,1.69,0,4,110.1,N,mobile,school_partner,free,29,no,,
+L-00882,27-06-2026,30,1,Diploma,1.0,2.07,2,0,0.0,no,laptop,school_partner,scholarship,35,0,,duplicate?  check
+L-00517,2026-04-03,,T3,Diploma,13.1,1.96,4,4,8.2,0,mobile,ngo_outreach,scholarship,42,0,50.9,duplicate?  check
+L-01869,03/04/2026,18,1,High School,7.8,6.57,3,2,42.2,FALSE,Desktop,school_partner,free,8,1,80.6,follow up next intake
+L-01827,2026-01-12,24,1,High-School,8.0,4.74,4,0,39.6,1,mobile,instagram,free,36,No,,
+L-01166,2026-06-23,18,3,High School,6.3,2.34,4,3,15.0,,mobile,school_partner,scholarship,18,0,,n/a
+L-00297,2026-04-26,22,2,bachelor degree,7.4,2.89,5,5,30.1,FALSE,MOBILE,friend,free,12,FALSE,,
+L-02772,2026-01-27,25,2,diploma,9.5,1.91,7,7,71.2,TRUE,tablet,friend,scholarship,23,no,,
+L-01819,2026-01-13,20,3,high school,5.9,2.82,4,1,13.6,no,laptop,instagram,scholarship,21,0,,duplicate?  check
+L-02688,17-03-2026,,2,Bachelors,4.8,2.37,6,0,51.8,0,MOBILE,instagram,scholarship,9,TRUE,80.6,-
+L-02630,2026-02-09,23,2,Bachelors,5.6,1.52,1,1,106.3,N,laptop,youtube,free,55,FALSE,,-
+L-01899,2026-02-16,24,3,Bachelors,,2.9,3,7,31.2,0,mobile,school_partner,paid,5,0,,duplicate?  check
+L-00808,2026-06-02,26,1,Diploma,5.1,3.68,5,4,16.7,N,phone,youtube,scholarship,43,No,,requested extension
+L-01101,2026-06-21,26,2,High-School,9.4,2.81,3,2,58.6,No,mobile,instagram,free,52,no,35.9,n/a
+L-00499,2026-06-12,16,3,High School,3.9,1.67,3,9,,No,mobile,instagram,scholarship,22,Yes,78.1,requested extension
+L-00674,2026-02-18,23,1,High School,10.6,4.5,6,0,36.5,0,laptop,youtube,free,24,TRUE,76.4,requested extension
+L-01703,2026-03-05,17,3,highschool,6.9,5.09,5,2,63.0,N,tablet,friend,free,29,Yes,96.9,
+L-00751,05-01-2026,20,3,Bachelors,10.3,1.26,3,0,39.6,no,laptop,school_partner,scholarship,35,no,58.6,n/a
+L-00737,2026-02-16,25,3,high school,14.5,1.97,2,4,79.5,0,mobile,instagram,free,7,0,,duplicate?  check
+L-01081,2026-04-24,22,1,Other,4.5,5.13,3,0,58.1,N,mobile,school_partner,free,20,no,,
+L-02131,16/02/2026,23,2,Diploma,3.6,0.69,6,1,60.2,yes,mobile,ngo_outreach,free,4,Y,68.5,called on phone
+L-02165,2026-05-26,22,1,High School,3.8,1.99,3,2,41.4,no,mobile,instagram,free,28,TRUE,,follow up next intake
+L-01750,02-06-2026,,2,High School,9.7,5.35,6,3,82.2,No,mobile,instagram,free,0,TRUE,94.6,asked about certificate
+L-00583,2026-06-26,16,1,Diploma,1.8,4.44,5,0,58.0,0,mobile,friend,scholarship,2,Yes,68.9,
+L-02013,22/02/2026,22,2,Bachelors,5.3,3.32,1,4,16.1,No,tablet,friend,free,15,N,,duplicate?  check
+L-00234,12-02-2026,15,1,High School,,,4,0,44.9,no,mobile,friend,free,17,1,87.3,
+L-01933,2026-06-11,22,3,masters,4.0,5.25,7,2,27.1,N,desktop,ngo_outreach,paid,12,1,79.4,
+L-00215,22/04/2026,15,Tier 2,High School,4.5,1.55,4,2,10.3,0,notebook,school_partner,paid,42,FALSE,,follow up next intake
+L-01755,2026-03-23,20,2,,11.4,0.94,1,8,39.0,TRUE,laptop,school_partner,paid,30,yes,63.6,
+L-02786,23/05/2026,17,3,Diploma,4.7,2.18,4,3,31.2,Yes,PC,youtube,free,29,FALSE,,n/a
+L-02761,2026-06-24,24,1,bachelors,7.5,1.69,1,2,3.8,yes,tablet,instagram,free,41,N,,
+L-01224,2026-02-12,22,Tier 3,Diploma,9.7,5.69,9,1,24.6,No,laptop,youtube,scholarship,29,Y,90.0,
+L-02024,2026-05-02,18,Tier 1,Diploma,1.5,4.2,10,11,78.2,No,mobile,friend,paid,24,Yes,94.0,asked about certificate
+L-02340,2026-05-15,27,1,Diploma,,1.16,0,12,0.0,FALSE,mobile,friend,scholarship,7,0,,
+L-02018,2026-04-10,15,2,Diploma,8.7,2.57,6,1,57.4,,mobile,youtube,free,15,no,,follow up next intake
+L-02072,2026-05-05,,3,Diploma,8.9,2.94,5,1,100.0,N,laptop,instagram,free,30,No,,
+L-00816,24/05/2026,24,2,Bachelors,10.1,1.79,2,4,38.4,No,laptop,instagram,free,15,0,,called on phone
+L-00219,2026-06-13,16,2,HS,12.8,4.96,5,4,32.0,0,mobile,friend,free,20,0,,follow up next intake
+L-02274,2026-04-05,20,3,Bachelors,7.4,0.19,0,0,26.8,Yes,desktop,youtube,free,26,N,,
+L-01413,2026-04-08,22,,High School,5.1,3.21,1,3,115.3,N,laptop,instagram,scholarship,20,no,,asked about certificate
+L-00293,06/04/2026,16,3,diploma,1.0,5.18,1,2,44.1,yes,mobile,school_partner,free,12,No,,
+L-02048,2026-04-12,21,2,diploma,14.4,2.33,2,3,48.9,No,Tablet,youtube,free,13,TRUE,85.3,
+L-01910,2026-06-05,19,2,Bachelors,7.5,1.87,0,1,33.4,0,laptop,instagram,free,37,FALSE,,n/a
+L-01077,2026-05-02,19,2,High School,8.6,2.36,0,1,0.0,FALSE,desktop,friend,free,37,0,40.0,-
+L-01350,12-04-2026,21,2,B.Tech,4.0,1.81,2,1,113.0,no,Laptop,ngo_outreach,scholarship,42,No,46.6,
+L-00593,2026-03-22,25,1,High-School,6.4,2.14,1,4,18.9,yes,tablet,instagram,scholarship,35,FALSE,,follow up next intake
+L-00094,19/03/2026,16,2,Bachelors,11.1,2.72,7,2,58.0,0,mobile,school_partner,free,16,No,,
+L-00411,2026-01-12,25,,Diploma,,1.59,0,6,12.8,N,desktop,youtube,free,16,No,,asked about certificate
+L-02278,2026-06-24,,3,Masters,7.6,2.36,4,3,61.0,N,mobile,instagram,scholarship,2,0,42.9,called on phone
+L-00951,2026-01-19,20,2,DIPLOMA,2.2,3.81,4,1,84.4,FALSE,Laptop,school_partner,scholarship,10,Y,68.2,
+L-02531,2026-03-27,16,2,Bachelors,9.0,2.44,1,3,40.2,0,Laptop,ngo_outreach,scholarship,18,no,,requested extension
+L-01685,2026-04-07,,1,Bachelors,6.0,3.0,5,2,41.7,0,laptop,friend,scholarship,19,yes,78.1,
+L-01323,13/03/2026,18,1,Masters,2.2,4.28,5,9,62.7,no,mobile,friend,paid,11,TRUE,71.4,
+L-01341,2026-05-06,20,1,Diploma,1.6,2.42,5,2,14.4,FALSE,Laptop,instagram,free,7,FALSE,83.6,follow up next intake
+L-01684,10/03/2026,17,1,Diploma,3.4,1.57,1,2,17.0,N,mobile,ngo_outreach,paid,29,N,,
+L-02627,2026-04-03,15,3,High-School,11.6,5.02,2,3,14.3,no,MOBILE,youtube,paid,41,no,59.6,n/a
+L-02570,22/02/2026,18,1,Diploma,3.0,,1,1,10.5,,mobile,friend,scholarship,25,No,,called on phone
+L-01508,22-05-2026,22,2,bachelor degree,10.6,,0,7,28.2,Y,mobile,youtube,scholarship,44,0,42.7,
