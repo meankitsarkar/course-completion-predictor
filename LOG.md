@@ -1,109 +1,139 @@
-# Work Log
+# Daily Work Log
 
-## Day 1 - Setup and Initial Exploration
+## Day 1
 
-**Date:** 08 August 2026  
-**Time spent:** Around 2 hours
+**Time Spent:** 2 hours
 
-### What I did
+### Tasks Completed
 
-Today I started the Course Completion Predictor project.
+* Created GitHub repository.
+* Set up Google Colab notebook.
+* Uploaded the datasets.
+* Loaded the training and holdout CSV files.
+* Explored the dataset using:
+  * head()
+  * shape
+  * columns
+  * info()
+  * describe()
+* Read the Data Dictionary and understood each feature.
 
-I loaded the training and holdout CSV files in Google Colab using pandas. I checked the size of both datasets and looked at the first few rows.
+### Challenges
 
-The training dataset has 2484 rows and 19 columns. The holdout dataset has 400 rows and 18 columns.
+* Learning the basics of Pandas and DataFrames.
 
-I also checked the column names, data types, and missing values.
+### Next Steps
 
-I checked the `completed_course` column to understand how many learners completed the course and how many did not.
+* Explore missing values, duplicates, and data quality issues.
 
-### What I found
+## Day 2
 
-There are 2475 learners with a known completion result.
+**Time Spent:** ~2 hours
 
-- 1561 learners did not complete the course.
-- 914 learners completed the course.
-- Around 63.1% did not complete.
-- Around 36.9% completed.
+### Tasks Completed
 
-I also found that some columns have missing values. There are also 83 completely duplicated rows.
+* Investigated missing values across the training dataset.
+* Calculated missing-value percentages.
+* Checked for duplicate learner IDs and exact duplicate rows.
+* Investigated duplicated learner records and found 84 rows with repeated learner IDs.
+* Identified 83 exact duplicate rows.
+* Investigated numerical ranges and identified impossible age values.
+* Identified impossible pledged study hours above 168 hours per week.
+* Investigated video watch percentages above 100%.
+* Explored categorical columns and identified inconsistent education, mentor, device, and city-tier labels.
+* Identified `final_score` and `certificate_issued` as possible future-information/data-leakage columns.
+* Identified 9 training records with a missing `completed_course` value.
 
-### What was difficult
+### Problems Encountered
 
-I am new to Python and machine learning, so I had to understand what things like `shape`, `info()`, `isnull()` and `value_counts()` mean.
+* Several columns contain missing values.
+* The dataset contains duplicate learner records.
+* Some numerical values are clearly impossible.
+* Several categorical columns use inconsistent labels.
+* Some information may not be available at the time the prediction is supposed to be made.
 
-### What I learned
+### Key Findings
 
-I learned how to load a CSV file into pandas and how to get basic information about a dataset.
+* 84 rows contain duplicated learner IDs.
+* 83 rows are exact duplicates.
+* 9 training records have no `completed_course` value.
+* Several age values are impossible, including `-3`, `199`, and `300`.
+* Some learners have impossible pledged study hours above 168 hours per week.
+* Several video watch percentages are above 100%.
+* Several categorical fields contain inconsistent representations of the same category.
+* `final_score` and `certificate_issued` may contain information that would not be available at the prediction point.
 
-### Next step
+### Next Steps
 
-Tomorrow I will explore the columns in more detail and look for problems in the data.
+* Clean duplicate records.
+* Handle missing values.
+* Standardize categorical values.
+* Handle impossible numerical values.
+* Create a cleaned dataset for modelling.
 
 
-## Day 2 - Data Exploration
+## Day 3
 
-**Date:** 08 August 2026  
-**Time spent:** Around 2 hours
+**Time Spent:** ~2 hours
 
-### What I did
+### Tasks Completed
 
-Today I explored the dataset more carefully.
+* Removed 83 exact duplicate rows from the training dataset.
+* After removing duplicates, the dataset had 2,401 rows and 19 columns.
+* Standardized `city_tier` values into 1, 2, and 3.
+* Standardized `education` values into common categories such as:
+  * Bachelor
+  * High School
+  * Diploma
+  * Masters
+  * Other
+* Standardized `has_mentor` values into `Yes` and `No`.
+* Standardized `device` values into common device categories.
+* Checked numerical columns for impossible values.
+* Found 29 impossible age values and replaced them with missing values.
+* Found 8 impossible `hours_per_week_pledged` values and replaced them with missing values.
+* Found 36 `video_watch_pct` values above 100% and corrected them.
+* Checked `weekly_logins_avg`, `assignments_submitted`, and `forum_posts` and found no impossible values.
+* Checked `days_since_last_login` and confirmed the cleaned values were within the range of 0 to 70 days.
+* Standardized `certificate_issued` values into `yes` and `no`.
+* Checked `final_score` and found no impossible scores.
+* Replaced `-` in the `notes` column with a missing value.
+* Kept missing `final_score` and `notes` values as missing instead of filling them with guessed values.
+* Removed 9 rows where `completed_course` was missing because it is the target variable.
+* Reset the dataset index after removing rows.
+* Performed a final duplicate and missing-value check.
 
-I checked the different values in the category columns and also checked the numeric columns using `describe()`.
+### Important Findings
 
-I also checked duplicate learner IDs and looked at the learners where the completion result is missing.
+* The final cleaned dataset contains 2,392 rows and 19 columns.
+* There are 0 duplicate rows remaining.
+* There are 0 missing values in `completed_course`.
+* `final_score` still has missing values, but these were kept because the missing values are meaningful and should not be filled with guessed scores.
+* `notes` also contains missing values and was kept as missing.
+* The categorical columns are now much more consistent.
+* Invalid numerical values identified during Day 2 were cleaned.
 
-### Problems I found
+### Challenges
 
-I found several data quality problems.
+* Deciding whether a value was actually wrong or just missing was one of the difficult parts.
+* Some categorical columns had many different versions of the same value.
+* I had to be careful not to fill missing target values because `completed_course` is what the model will predict.
+* I also had to understand why some missing values, such as `final_score`, should be left missing instead of being replaced with an average.
 
-1. `city_tier` has different ways of writing the same values. For example, there are values like `1`, `T1`, `Tier 1` and `tier-1`.
+### Final Data Quality Check
 
-2. `education` also has different versions of the same education level. For example, `Bachelors`, `Bachelor's`, `bachelors` and `bachelor degree`.
+* Final dataset shape: **2,392 rows × 19 columns**
+* Duplicate rows: **0**
+* Missing `completed_course`: **0**
+* Impossible age values remaining: **0**
+* Impossible pledged-hours values remaining: **0**
+* Video watch values above 100% remaining: **0**
+* Final score impossible values: **0**
 
-3. `has_mentor` has many different values for yes and no, such as `1`, `TRUE`, `Yes`, `Y`, `0`, `FALSE`, `No` and `N`.
+### Next Steps
 
-4. `device` has different names for similar devices. For example, `mobile`, `Mobile`, `MOBILE` and `phone`.
-
-5. The age column has some impossible values. The minimum age is -3 and the maximum is 300.
-
-6. `hours_per_week_pledged` has a very high value of 326.8 hours per week, which is not realistic because there are only 168 hours in a week.
-
-7. `video_watch_pct` has values above 100. The maximum is 115.3%.
-
-8. I found 83 completely duplicated rows.
-
-9. I found 84 duplicate learner IDs. I checked some of them and the repeated records appeared to contain the same information.
-
-10. There are 9 learners where `completed_course` is missing.
-
-11. Several columns have missing values, including age, education, city tier, mentor information and some activity columns.
-
-### Things that looked okay
-
-`referral_source` and `payment_plan` did not show the same type of inconsistent values.
-
-`weekly_logins_avg` was within the expected 0 to 7 range.
-
-`assignments_submitted` was also within the expected range of 0 to 10.
-
-### Something important I noticed
-
-I noticed that `final_score` and `certificate_issued` are related to information that becomes available after the course finishes.
-
-Since our prediction is supposed to happen at the end of week 3, I need to be careful not to use information that would not have been available at that time.
-
-### What was difficult
-
-The main difficult part was understanding which values are actually problems and which ones are normal. I also had to learn how to investigate duplicate records instead of immediately deleting them.
-
-### What I learned
-
-I learned that real data is not always clean. The same thing can be written in different ways, some values can be missing or impossible, and duplicate records can exist.
-
-I also learned that we need to think about when information becomes available before using a column for prediction.
-
-### Next step
-
-On Day 3 I will start cleaning the data. I will make a decision for each problem I found and record why I made that decision.
+* Prepare the cleaned data for machine learning.
+* Decide which columns should be used as model features.
+* Handle the remaining missing values during the preprocessing stage.
+* Establish a baseline model.
+* Train and evaluate the first machine-learning model.
