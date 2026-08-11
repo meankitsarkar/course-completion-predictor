@@ -100,7 +100,7 @@ Clean all messy text labels, fix invalid numbers, fill missing values, and prepa
 Learning how Pandas handles missing values (`NaN`) and ensuring that only rows missing the target outcome (`completed_course`) were dropped while keeping all valid learner records.
 
 ### Final Data Quality Check
-* Final dataset shape: **2,392 rows × 19 columns**
+* Final dataset shape: **2,392 rows × 19 columns** 
 * Duplicate rows: **0**
 * Missing `completed_course`: **0**
 * Impossible age values remaining: **0**
