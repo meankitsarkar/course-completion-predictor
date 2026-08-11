@@ -155,4 +155,57 @@ Learning how Pandas handles missing values (`NaN`) and ensuring that only rows m
 ### What I Learned & Next Steps
 * Learned how to evaluate classification models using baseline comparisons, confusion matrices, and precision/recall trade-offs.
 * **Next Steps:** On Day 5, compare Logistic Regression with tree-based models (such as Decision Trees or Random Forests) to test whether Class 1 recall can be improved.
-*
+
+---
+
+## Day 5 — Model Comparison & Improvement
+
+**Date:** 11 August 2026  
+**Time Spent:** ~2 hours
+
+### Tasks Completed
+- Established the majority-class baseline at 62.84% accuracy.
+- Trained and evaluated an unconstrained Decision Tree classifier.
+- Checked training accuracy to diagnose overfitting in the initial Decision Tree model.
+- Retrained and evaluated a depth-limited Decision Tree classifier (`max_depth=5`) to reduce model complexity.
+- Compared model performance using accuracy, precision, recall, F1-score, and confusion matrices.
+- Compared Decision Tree models with the existing Logistic Regression model.
+
+### Model Comparison
+
+| Model | Accuracy | Remarks |
+|---|---:|---|
+| Majority baseline | 62.84% | Benchmark |
+| Decision Tree (Unconstrained) | 71.19% | Severe overfitting |
+| Decision Tree (`max_depth=5`) | 76.41% | Reduced overfitting |
+| Logistic Regression | 77.24% | Best overall performance |
+
+### Observations
+All machine-learning models substantially outperformed the majority-class baseline.
+
+The unconstrained Decision Tree performed weakest among the machine-learning models due to severe overfitting, achieving 100% training accuracy but only 71.19% test accuracy.
+
+Limiting the tree depth to `max_depth=5` successfully controlled model complexity, raising test accuracy from 71.19% to 76.41% and drastically narrowing the gap between training and test accuracy from 28.81 percentage points down to 1.06 percentage points.
+
+Logistic Regression remained the best-performing model with a test accuracy of 77.24%, closely followed by the depth-limited Decision Tree at 76.41%.
+
+### Overfitting & Tuning Analysis
+The unconstrained Decision Tree became too complex and memorized noise in the training data, leading to poor generalization on unseen test data.
+
+Restricting the tree depth to 5 prevented deep splitting, resulting in a balanced model with 77.47% training accuracy and 76.41% test accuracy.
+
+The classification results for the improved Depth-5 Decision Tree showed:
+- True Negatives: 244
+- False Positives: 57
+- False Negatives: 56
+- True Positives: 122
+- Overall Correct Predictions: 366 out of 479
+
+Learner features show strong statistical patterns for predicting course completion, but these correlations should not be interpreted as direct evidence of causation.
+
+### Next Steps
+- Perform deeper error analysis on the leading models.
+- Examine false positives (57) and false negatives (56) to understand prediction failures.
+- Check whether model performance remains consistent across different learner segments.
+- Explore further feature engineering or hyperparameter tuning only after completing the error analysis.
+-
