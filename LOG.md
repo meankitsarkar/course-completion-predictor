@@ -115,7 +115,7 @@ Learning how Pandas handles missing values (`NaN`) and ensuring that only rows m
 
 ---
 
-## Day 4 - Model Training and Evaluation
+## Day 4 - Preparing Data for Machine Learning
 
 **Date:** 10 August 2026  
 **Time Spent:** ~2 hours
@@ -135,12 +135,12 @@ Learning how Pandas handles missing values (`NaN`) and ensuring that only rows m
 * **Classification Report Breakdown:**
   * **Class 0 (Did Not Complete):** Precision = **80%**, Recall = **86%**, F1-Score = **83%** (Support: 301).
   * **Class 1 (Completed Course):** Precision = **72%**, Recall = **63%**, F1-Score = **67%** (Support: 178).
-* **Confusion Matrix (`[[258, 43], [66, 112]]`):**
-  * True Negatives (258): Correctly predicted non-completers.
-  * False Positives (43): Non-completers incorrectly predicted as completers.
-  * False Negatives (66): Actual completers incorrectly predicted as non-completers.
-  * True Positives (112): Correctly predicted completers.
-  * Total Correct: **370** | Total Incorrect: **109**.
+* **Confusion Matrix:**
+  * True Negatives: **258** (Correctly predicted non-completers)
+  * False Positives: **43** (Non-completers incorrectly predicted as completers)
+  * False Negatives: **66** (Actual completers incorrectly predicted as non-completers)
+  * True Positives: **112** (Correctly predicted completers)
+  * Total Correct: **370** | Total Incorrect: **109**
 
 ### Errors Encountered & Fixed
 * **Column Name TypeError:** Fitting the model threw `TypeError: Feature names are only supported if all input features have string names, but your input has ['int', 'str']`.
@@ -158,54 +158,124 @@ Learning how Pandas handles missing values (`NaN`) and ensuring that only rows m
 
 ---
 
-## Day 5 — Model Comparison & Improvement
+## Day 5 - Model Comparison & Improvement
 
 **Date:** 11 August 2026  
 **Time Spent:** ~2 hours
 
 ### Tasks Completed
-- Established the majority-class baseline at 62.84% accuracy.
-- Trained and evaluated an unconstrained Decision Tree classifier.
-- Checked training accuracy to diagnose overfitting in the initial Decision Tree model.
-- Retrained and evaluated a depth-limited Decision Tree classifier (`max_depth=5`) to reduce model complexity.
-- Compared model performance using accuracy, precision, recall, F1-score, and confusion matrices.
-- Compared Decision Tree models with the existing Logistic Regression model.
+* Established the majority-class baseline at 62.84% accuracy.
+* Trained and evaluated an unconstrained Decision Tree classifier.
+* Checked training accuracy to diagnose overfitting in the initial Decision Tree model.
+* Retrained and evaluated a depth-limited Decision Tree classifier (`max_depth=5`) to reduce model complexity.
+* Compared model performance using accuracy, precision, recall, F1-score, and confusion matrices.
+* Compared Decision Tree models with the existing Logistic Regression model.
 
 ### Model Comparison
 
 | Model | Accuracy | Remarks |
-|---|---:|---|
-| Majority baseline | 62.84% | Benchmark |
-| Decision Tree (Unconstrained) | 71.19% | Severe overfitting |
-| Decision Tree (`max_depth=5`) | 76.41% | Reduced overfitting |
-| Logistic Regression | 77.24% | Best overall performance |
+| :--- | :---: | :--- |
+| **Majority baseline** | 62.84% | Benchmark |
+| **Decision Tree (Unconstrained)** | 71.19% | Severe overfitting |
+| **Decision Tree (`max_depth=5`)** | 76.41% | Reduced overfitting |
+| **Logistic Regression** | **77.24%** | **Best overall performance** |
 
 ### Observations
-All machine-learning models substantially outperformed the majority-class baseline.
-
-The unconstrained Decision Tree performed weakest among the machine-learning models due to severe overfitting, achieving 100% training accuracy but only 71.19% test accuracy.
-
-Limiting the tree depth to `max_depth=5` successfully controlled model complexity, raising test accuracy from 71.19% to 76.41% and drastically narrowing the gap between training and test accuracy from 28.81 percentage points down to 1.06 percentage points.
-
-Logistic Regression remained the best-performing model with a test accuracy of 77.24%, closely followed by the depth-limited Decision Tree at 76.41%.
+* All machine-learning models substantially outperformed the majority-class baseline.
+* The unconstrained Decision Tree performed weakest among the machine-learning models due to severe overfitting, achieving 100% training accuracy but only 71.19% test accuracy.
+* Limiting the tree depth to `max_depth=5` successfully controlled model complexity, raising test accuracy from 71.19% to 76.41% and drastically narrowing the gap between training and test accuracy from 28.81 percentage points down to 1.06 percentage points.
+* Logistic Regression remained the best-performing model with a test accuracy of 77.24%, closely followed by the depth-limited Decision Tree at 76.41%.
 
 ### Overfitting & Tuning Analysis
-The unconstrained Decision Tree became too complex and memorized noise in the training data, leading to poor generalization on unseen test data.
-
-Restricting the tree depth to 5 prevented deep splitting, resulting in a balanced model with 77.47% training accuracy and 76.41% test accuracy.
-
-The classification results for the improved Depth-5 Decision Tree showed:
-- True Negatives: 244
-- False Positives: 57
-- False Negatives: 56
-- True Positives: 122
-- Overall Correct Predictions: 366 out of 479
-
-Learner features show strong statistical patterns for predicting course completion, but these correlations should not be interpreted as direct evidence of causation.
+* The unconstrained Decision Tree became too complex and memorized noise in the training data, leading to poor generalization on unseen test data.
+* Restricting the tree depth to 5 prevented deep splitting, resulting in a balanced model with 77.47% training accuracy and 76.41% test accuracy.
+* The classification results for the improved Depth-5 Decision Tree showed:
+  * True Negatives: 244
+  * False Positives: 57
+  * False Negatives: 56
+  * True Positives: 122
+  * Overall Correct Predictions: 366 out of 479
+* Learner features show strong statistical patterns for predicting course completion, but these correlations should not be interpreted as direct evidence of causation.
 
 ### Next Steps
-- Perform deeper error analysis on the leading models.
-- Examine false positives (57) and false negatives (56) to understand prediction failures.
-- Check whether model performance remains consistent across different learner segments.
-- Explore further feature engineering or hyperparameter tuning only after completing the error analysis.
--
+* Perform deeper error analysis on the leading models.
+* Examine false positives (57) and false negatives (56) to understand prediction failures.
+* Check whether model performance remains consistent across different learner segments.
+* Explore further feature engineering or hyperparameter tuning only after completing the error analysis.
+
+---
+
+## Day 6 - Final Model Selection & Evaluation
+
+**Date:** 12 August 2026  
+**Time Spent:** ~2 hours
+
+### Tasks Completed
+* Evaluated all candidate models on the test dataset using comprehensive classification metrics (Accuracy, Precision, Recall, F1-Score, and Confusion Matrix).
+* Selected Logistic Regression as the final primary classification model based on overall accuracy and class balance.
+* Resolved evaluation metric errors caused by unimported Scikit-Learn functions.
+* Serialized and saved the trained Logistic Regression model as a pickle file (`final_logistic_regression_model.pkl`) using `joblib`.
+* Reloaded the saved pickle model and verified that its predictions and accuracy match the original trained model.
+
+### Final Model Comparison
+
+| Model | Test Accuracy | Status / Summary |
+| :--- | :---: | :--- |
+| **Majority baseline** | 62.84% | Benchmark |
+| **Decision Tree (Unconstrained)** | 71.19% | Severe overfitting |
+| **Decision Tree (`max_depth=5`)** | 76.41% | Controlled overfitting |
+| **Logistic Regression** | **77.24%** | **Selected Final Model** |
+
+### Evaluation Metrics Breakdown
+The final selected Logistic Regression model achieved the following performance metrics on the 479 test samples:
+* **Accuracy:** 77.24% (`0.7724425887265136`)
+* **Precision (Class 1 - Completers):** 72.26% (`0.7225806451612903`)
+* **Recall (Class 1 - Completers):** 62.92% (`0.6292134831460674`)
+* **F1-Score (Class 1 - Completers):** 67.27% (`0.6726726726726727`)
+
+**Confusion Matrix Results:**
+* True Negatives (Class 0): 258
+* False Positives (Class 0 predicted as 1): 43
+* False Negatives (Class 1 predicted as 0): 66
+* True Positives (Class 1): 112
+
+### Errors Encountered & Solutions
+* **Missing Metric Import Error:** Encountered a `NameError: name 'precision_score' is not defined` while calculating explicit metric scores.
+* **Fix:** Imported missing functions directly from Scikit-Learn using `from sklearn.metrics import precision_score, recall_score, f1_score`.
+
+### Model Persistence & Verification
+* **Model Saving:** Serialized the trained Logistic Regression object into `final_logistic_regression_model.pkl` via `joblib.dump()`. This eliminates the need to retrain the model when making future predictions or deploying to applications.
+* **Restoration Check:** Successfully loaded the `.pkl` file back into memory using `joblib.load()`.
+* **Accuracy Verification:** Evaluated the restored model on `X_test`, confirming an exact match with the original score (`0.7724425887265136`), verifying that no weights or parameters were altered during serialization.
+
+### Next Steps
+* Perform final notebook cleanup, code refactoring, and markdown structure checks.
+* Audit repository documentation (`LOG.md`, `AI_USAGE.md`, `README.md`) before project submission.
+
+---
+
+## Day 7 - Final Course Completion Review
+
+**Date:** 12 August 2026  
+**Time Spent:** ~2 hours
+
+### Objective
+To complete the final review of the machine-learning assignment and confirm the performance of the finalized model.
+
+### Work Completed
+1. Reviewed the final Logistic Regression model.
+2. Reviewed the final classification metrics.
+3. Confirmed the final precision, recall, and F1-score.
+4. Reviewed the overall model comparison and final model selection.
+5. Reviewed the major errors encountered during the project and their corrections.
+6. Confirmed the complete ML workflow from data preparation to final evaluation.
+
+### Confirmed Final Metrics
+* **Final Precision:** **72.26%** (`0.7225806451612903`)
+* **Final Recall:** **62.92%** (`0.6292134831460674`)
+* **Final F1-Score:** **67.27%** (`0.6726726726726727`)
+* **Final Test Accuracy:** **77.24%**
+
+### Conclusion
+
+I completed my machine-learning assignment and selected Logistic Regression as my final model because it gave the best accuracy among the models I tested. I learned how to train different models, compare their results, and check the model using precision, recall, F1-score, and the confusion matrix. I also fixed the errors that came during the work. Overall, this project helped me understand the basic steps of a machine-learning project.
