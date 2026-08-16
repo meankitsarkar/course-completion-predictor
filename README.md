@@ -1,4 +1,3 @@
-```
 # Course Completion Predictor
 
 A Machine Learning classification project that predicts whether an online learner will complete a course using learner demographic and early engagement information.
@@ -139,7 +138,6 @@ To reduce overfitting, the tree depth was limited using:
 
 ```python
 max_depth=5
-```
 
 The tuned Decision Tree achieved 76.41% test accuracy and had a much smaller difference between training and test performance.
 
