@@ -5,7 +5,6 @@ A Machine Learning classification project that predicts whether an online learne
 ---
 
 ## Repository
-
 [GitHub Repository](https://github.com/meankitsarkar/course-completion-predictor)
 
 ---
@@ -138,6 +137,7 @@ To reduce overfitting, the tree depth was limited using:
 
 ```python
 max_depth=5
+```
 
 The tuned Decision Tree achieved 76.41% test accuracy and had a much smaller difference between training and test performance.
 
@@ -303,4 +303,3 @@ Among the tested models, Logistic Regression achieved the highest test accuracy 
 The final model achieved 72.26% precision, 62.92% recall, and 67.27% F1-score for Class 1.
 
 Overall, this project helped develop a practical understanding of how a Machine Learning model can be built from raw data through to evaluation and saving the final trained model.
-
