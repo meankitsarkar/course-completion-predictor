@@ -5,7 +5,8 @@ A Machine Learning classification project that predicts whether an online learne
 ---
 
 ## Repository
-[GitHub Repository](https://github.com/meankitsarkar/course-completion-predictor)
+
+GitHub Repository: https://github.com/meankitsarkar/course-completion-predictor
 
 ---
 
