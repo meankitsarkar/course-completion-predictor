@@ -305,4 +305,4 @@ Among the tested models, Logistic Regression achieved the highest test accuracy 
 The final model achieved 72.26% precision, 62.92% recall, and 67.27% F1-score for Class 1.
 
 Overall, this project helped develop a practical understanding of how a Machine Learning model can be built from raw data through to evaluation and saving the final trained model.
-```
+
